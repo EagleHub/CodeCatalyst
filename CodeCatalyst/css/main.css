@@ -33,7 +33,10 @@ p {
 #wrapper {
   margin:0 auto;
   max-width: 100%;
+  
 }
+
+h2 { font-size: 28px !important; }
 
 /* Header */
 header {
