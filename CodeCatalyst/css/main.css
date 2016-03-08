@@ -1,0 +1,171 @@
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000;
+    background-color: #F5F5F5;
+}
+
+.info {
+    padding: 40px;
+    margin: 40px;
+    font-family: 'Arimo',sans-serif;
+}
+
+p {
+    font-family: 'Arimo',sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.side {
+    text-align: left;
+}
+
+.banner {
+    height: 400px;
+    width: 100%;
+    margin: auto;
+}
+
+#wrapper {
+  margin:0 auto;
+  max-width: 100%;
+}
+
+/* Header */
+header {
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Nav */
+.main-nav {
+    width: 100%;
+    background: #841619;
+    min-height: 30px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav .name {
+    display: none;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+.nav li {
+    padding: 5px 10px 10px;
+    border-right:1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.nav a {
+    transition: all .6s;
+    font-family: 'Roboto', sans-serif;
+    font-size:  large;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+ul li a {
+    text-decoration: none;
+}
+  
+ul {
+  list-style-type: none;
+}
+
+/* Links */
+#links {
+  color:#0BB5FF; 
+  text-decoration:none;
+}
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    color: #87ceeb;
+}
+
+
+/* Images */
+.pic {
+ border: 2px solid #000;
+ border-radius: 50%;
+}
+
+
+
+/* Gallery */
+#images {
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    margin: 40px auto;
+    border: 3px solid #000;
+}
+
+#images img {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: -400px;
+    z-index: 1;
+    opacity: 0;
+    transition: all linear 500ms;
+    -o-transition: all linear 500ms;
+    -moz-transition: all linear 500ms;
+    -webkit-transition: all linear 500ms;
+    margin: auto;
+}
+
+#images img:target {
+    left: 0;
+    z-index: 9;
+    opacity: 1;
+}
+
+#images img:first-child {
+    left: 0;
+    opacity: 1;
+}
+
+#slider a {
+    text-decoration: none;
+    background: #add8e6;
+    border: 1px solid #000;
+    padding: 3px 5px;
+    color: #000;
+}
+
+#slider a:hover {
+    background: #fff;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    font-size: .5em;
+    text-align: center;
+    background-color: #136a93;
+    padding-top: .5px;
+    padding-bottom: .5px;
+    color: #fff;
+}
