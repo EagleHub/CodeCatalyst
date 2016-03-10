@@ -40,6 +40,8 @@ h2 { font-size: 28px !important; }
 
 h3 { font-size: 32px !important; }
 
+ul li { display: inline; text-align:center; }
+
 /* Header */
 header {
     text-align: center;
